@@ -13,7 +13,7 @@ def binary_search(list, item):
             low = mid + 1
     return None # itemが存在しない
 
-my_list = [1, 3, 5, 7, 9] # 要素が5つあるので、最も計算量が多くても2回でitemが見つけられる。log2x(x=5)
+my_list = [1, 3, 5, 7, 9] # 要素が5つあるので、最も計算量が多くても3回でitemが見つけられる。log2x(x=5)
 
 print(binary_search(my_list, 3))
 
